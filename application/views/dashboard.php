@@ -73,22 +73,14 @@
             </ul>
         </nav>
         
-        <a href="<?php echo base_url() ?>login"> <button type="button" class="tm-btn" style="width: 96%">P E L A P O R A N</button></a>
+        <a href="<?php echo base_url() ?>login"> <button type="button" class="tm-btn" style="width: 96%; margin-bottom: 10px">P E L A P O R A N</button></a>
+        <a href="https://petugas.baruna.id/"> <button type="button" class="tm-btn" style="width: 96%">P E T U G A S</button></a>
         </center>
     </div>
-    <div class="tm-container">
-        <center>
-        <nav class="tm-main-nav">
-            <ul id="inline-popups">
-                <li class="tm-nav-item">
-                        <img src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
-                </li>
-               
-                        
-            </ul>
-        </nav>
-        </center>
-    </div>
+    <header class="tm-site-logo" >
+        <img src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
+    </header>
+
     
 
     <footer class="tm-footer">

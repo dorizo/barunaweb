@@ -89,18 +89,18 @@ a {
 
 .tm-site-header {
     padding: 5px 70px 30px;
-   
-
+}
+.tm-site-logo {
+    padding: 15px 70px 30px;
 }
 .responsive {
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
 }
 .responsive-logo {
   width: 100%;
-  max-width: 800px;
-  padding-left: 200px;
+  max-width: 950px;
   height: auto;
 }
 
