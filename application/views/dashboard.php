@@ -4,38 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baruna.id</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/images/logo.ico"/>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> --> <!-- https://fonts.google.com/ -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/magnific-popup.css"> 
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/templatemo-ocean-vibes.css"> 
 <!--
     
-TemplateMo 554 Ocean Vibes
 
-https://templatemo.com/tm-554-ocean-vibes
 
 -->
 </head>
 <body>
     <header class="tm-site-header">
-        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">BARUNA</span><span class="tm-color-gray-2">.id</span></h1>
+        <img src="<?php echo base_url() ?>assets/images/logo1.png" class="responsive" alt="Responsive image">
+       <!--  <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">BARUNA</span><span class="tm-color-gray-2">.id</span></h1> -->
     </header>
 
     <!-- Video banner 400 px height -->
     <div id="tm-video-container">
         <video autoplay muted loop id="tm-video">
-            <source src="<?php echo base_url() ?>assets/video/ocean-sea-wave-video.mp4" type="video/mp4">
+            <source src="<?php echo base_url() ?>assets/video/Photos for Exhibition - PPP Morodemak (1).mp4" type="video/mp4">
         </video>  
         <i id="tm-video-control-button" class="fas fa-pause"></i>
     </div>
     <div class="tm-container">
+        <center>
         <nav class="tm-main-nav">
             <ul id="inline-popups">
                 <li class="tm-nav-item">
-                    <a href="<?php echo base_url() ?>login" data-effect="mfp-move-from-top" class="tm-nav-link">
-                        Pelaporan
+                    <!-- <a href="<?php echo base_url() ?>login" data-effect="mfp-move-from-top" class="tm-nav-link">
+                       
                         <i class="fa fa-3x fa-sign-in-alt"></i>
-                    </a>                
+                        <i class="fas fa-2x"><?php echo number_format($total->berat,2) ; ?></i>
+                    </a>   -->
+                    <div  data-effect="mfp-move-from-top" style="text-transform: capitalize;" class="tm-nav-link" id="tm-gallery-link">
+                         Total
+                        
+                        <i class="fas fa-2x"><?php echo number_format($total->berat,2) ; ?></i>
+                    </div>              
                 </li>
                 <?php foreach ($data as $value) { ?>
                 <li class="tm-nav-item">
@@ -65,7 +72,24 @@ https://templatemo.com/tm-554-ocean-vibes
                 </li> -->
             </ul>
         </nav>
+        
+        <a href="<?php echo base_url() ?>login"> <button type="button" class="tm-btn" style="width: 96%">P E L A P O R A N</button></a>
+        </center>
     </div>
+    <div class="tm-container">
+        <center>
+        <nav class="tm-main-nav">
+            <ul id="inline-popups">
+                <li class="tm-nav-item">
+                        <img src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
+                </li>
+               
+                        
+            </ul>
+        </nav>
+        </center>
+    </div>
+    
 
     <footer class="tm-footer">
         <span>Copyright &copy; 2023 baruna.id</span>

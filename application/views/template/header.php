@@ -6,6 +6,7 @@
     <!--  All snippets are MIT license http://bootdey.com/license -->
     <title>Laporan Masyarkat - baruna.id</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/images/logo.ico"/>
     <script src="<?php echo base_url() ?>assets/js/jquery-1.10.2.min.js"></script>
     <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>

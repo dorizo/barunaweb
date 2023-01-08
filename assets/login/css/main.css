@@ -6,19 +6,19 @@
 [ FONT ]*/
 
 @font-face {
-  font-family: Ubuntu-Regular;
-  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+  font-family: Helvetica;
+  src: url('../fonts/Helvetica-Font/Helvetica.ttf'); 
 }
 
 @font-face {
-  font-family: Ubuntu-Bold;
-  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+  font-family: Helvetica-Bold;
+  src: url('../fonts/Helvetica-Font/Helvetica-Bold.ttf'); 
 }
 
-@font-face {
+/*@font-face {
   font-family: JosefinSans-Bold;
   src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
-}
+}*/
 
 
 
@@ -33,12 +33,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Ubuntu-Regular, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Ubuntu-Regular;
+	font-family: Helvetica;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Ubuntu-Regular;
+	font-family: Helvetica;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -132,23 +132,23 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Ubuntu-Regular;
+  font-family: Helvetica;
   font-size: 15px;
   color: #999999;
   line-height: 1.4;
 }
 
 .txt2 {
-  font-family: Ubuntu-Regular;
+  font-family: Helvetica;
   font-size: 15px;
-  color: #57b846;
+  color: #3299CD;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Ubuntu-Bold;
+  font-family: Helvetica-Bold;
   font-size: 15px;
-  color: #57b846;
+  color: #3299CD;
   line-height: 1.4;
   text-transform: uppercase;
 }
@@ -211,7 +211,7 @@ iframe {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #57b846;
+  background-color: #3299CD;
   padding-top: 50px;
   padding-bottom: 39px;
 }
@@ -297,7 +297,7 @@ iframe {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  background-color: #57b846;
+  background-color: #3299CD;
   border-radius: 25px;
 
   font-family: Ubuntu-Bold;

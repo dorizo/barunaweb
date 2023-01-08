@@ -9,12 +9,23 @@ https://templatemo.com/tm-554-ocean-vibes
 html { overflow-x: hidden; }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: Helvetica-Bold;
+    src: url('../fontawesome/Helvetica-Font/Helvetica-Bold.ttf'); 
     font-size: 19px;
     line-height: 1.8em;
     overflow-x: hidden;
 }
 
+
+/*@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+font-weight:normal;font-style:normal}
+*/
 p, span, em, a, address { color: #848586; }
 h2, p {
     margin-top: 0;
@@ -77,7 +88,20 @@ a {
 .tm-mt-0 { margin-top: 0; }
 
 .tm-site-header {
-    padding: 60px 70px 30px;
+    padding: 5px 70px 30px;
+   
+
+}
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.responsive-logo {
+  width: 100%;
+  max-width: 800px;
+  padding-left: 200px;
+  height: auto;
 }
 
 .tm-tagline {
@@ -108,7 +132,7 @@ a {
 
 .tm-nav-item {
     list-style: none;
-    margin: 22px;   
+    margin: 25px;   
 }
 
 .tm-nav-link {
