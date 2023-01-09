@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baruna.id</title>
     <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/images/logo.ico"/>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> --> <!-- https://fonts.google.com/ -->
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/magnific-popup.css"> 
+    
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/templatemo-ocean-vibes.css"> 
 <!--
     
@@ -41,14 +39,14 @@
                     <div  data-effect="mfp-move-from-top" style="text-transform: capitalize;" class="tm-nav-link" id="tm-gallery-link">
                          Total
                         
-                        <i class="fas fa-2x"><?php echo number_format($total->berat,2) ; ?></i>
+                        <b><?php echo number_format($total->berat,2) ; ?></b>
                     </div>              
                 </li>
                 <?php foreach ($data as $value) { ?>
                 <li class="tm-nav-item">
                     <div  data-effect="mfp-move-from-top" style="text-transform: capitalize;" class="tm-nav-link" id="tm-gallery-link">
                           <?= $value['kategori']; ?>
-                        <i class="fas fa-2x"><?php echo number_format($value['berat'],2) ; ?></i>
+                        <b><?php echo number_format($value['berat'],2) ; ?></b>
                     </div>
                 </li>
                 <?php } ?>

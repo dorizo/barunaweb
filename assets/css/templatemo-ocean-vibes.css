@@ -5,13 +5,22 @@ TemplateMo 554 Ocean Vibes
 https://templatemo.com/tm-554-ocean-vibes
 
 */
+@font-face {
+  font-family: Helvetica;
+  src: url('../fontawesome/Helvetica-Font/Helvetica.ttf'); 
+}
+
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url('../fontawesome/Helvetica-Font/Helvetica-Bold.ttf'); 
+}
 
 html { overflow-x: hidden; }
 
 body {
 
-    font-family: Helvetica-Bold;
-    src: url('../fontawesome/Helvetica-Font/Helvetica-Bold.ttf'); 
+    font-family: Helvetica;
+    src: url('../fontawesome/Helvetica-Font/Helvetica.ttf'); 
     font-size: 19px;
     line-height: 1.8em;
     overflow-x: hidden;
@@ -154,6 +163,11 @@ a {
 
 .tm-nav-link i {
     margin-top: 30px;
+    color: #309AFD;
+}
+.tm-nav-link b {
+    margin-top: 20px;
+    font-size: 30px;
     color: #309AFD;
 }
 
@@ -494,7 +508,7 @@ figure.effect-chico:hover p {
 }
 
 .form-control {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Helvetica';
     font-size: 1.2rem;
     border: 1px solid #D5D6D7;
     box-sizing: border-box;
