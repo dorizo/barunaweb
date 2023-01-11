@@ -72,12 +72,15 @@
         </nav>
         
         <a href="<?php echo base_url() ?>login"> <button type="button" class="tm-btn" style="width: 96%; margin-bottom: 10px">P E L A P O R A N</button></a>
-        <a href="https://petugas.baruna.id/"> <button type="button" class="tm-btn" style="width: 96%">P E T U G A S</button></a>
+        <a href="https://petugas.baruna.id/"> <button type="button" class="tm-btn" style="width: 96%; margin-bottom: 10px">P E T U G A S</button></a>
+         <a href="https://adminbaruna.netlify.app/dashboard/target"> <button type="button" class="tm-btn" style="width: 96%">S T A F F &nbsp; P E N G A W A S</button></a>
         </center>
     </div>
-    <header class="tm-site-logo" >
+    <div class="tm-site-logo" >
+        <center>
         <img src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
-    </header>
+        </center>
+    </div>
 
     
 
