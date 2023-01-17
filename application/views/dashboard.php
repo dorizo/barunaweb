@@ -91,8 +91,8 @@
     anychart.onDocumentReady(function () {
       // create pie chart with passed data
       var chart = anychart.pie3d([
-        <?php foreach ($data as $value) { ?>
-        ['<?=trim($value['kategori']);?>', <?=$value['berat'];?>],
+        <?php foreach ($average as $value) { ?>
+        ['<?=trim($value['jenis']);?>', <?=$value['berat'];?>],
         <?php } ?>
       ]);
 
