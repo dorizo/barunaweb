@@ -29,7 +29,7 @@
 </head>
 <body>
     <header class="tm-site-header">
-        <img style="width:200px" src="<?php echo base_url() ?>assets/images/logo2.png" class="responsive" alt="Responsive image">
+        <img style="width:200px" src="<?php echo base_url() ?>assets/images/logo3.png" class="responsive" alt="Responsive image">
        <!--  <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">BARUNA</span><span class="tm-color-gray-2">.id</span></h1> -->
     </header>
 
