@@ -12,10 +12,24 @@
 
 
 -->
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+  <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+  <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+  <style>
+    
+#containerchart {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+  </style>
 </head>
 <body>
     <header class="tm-site-header">
-        <img src="<?php echo base_url() ?>assets/images/logo1.png" class="responsive" alt="Responsive image">
+        <img style="width:200px" src="<?php echo base_url() ?>assets/images/logo2.png" class="responsive" alt="Responsive image">
        <!--  <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">BARUNA</span><span class="tm-color-gray-2">.id</span></h1> -->
     </header>
 
@@ -70,7 +84,31 @@
                 </li> -->
             </ul>
         </nav>
-        
+        <div id="containerchart"></div>
+
+  <script>
+
+    anychart.onDocumentReady(function () {
+      // create pie chart with passed data
+      var chart = anychart.pie3d([
+        <?php foreach ($data as $value) { ?>
+        ['<?=trim($value['kategori']);?>', <?=$value['berat'];?>],
+        <?php } ?>
+      ]);
+
+      // set chart title text settings
+      chart
+        .title('Average Waste (Kg)')
+        // set chart radius
+        .radius('80%');
+
+      // set container id for the chart
+      chart.container('containerchart');
+      // initiate chart drawing
+      chart.draw();
+    });
+  
+</script>
         <a href="<?php echo base_url() ?>login"> <button type="button" class="tm-btn" style="width: 96%; margin-bottom: 10px">P E L A P O R A N</button></a>
         <a href="https://petugas.baruna.id/"> <button type="button" class="tm-btn" style="width: 96%; margin-bottom: 10px">P E T U G A S</button></a>
         <a href="https://admin.baruna.id/index.php/login"> <button type="button" class="tm-btn" style="width: 96%">S T A F F &nbsp; P E N G A W A S</button></a>
@@ -79,7 +117,7 @@
     </div>
     <div class="tm-site-logo" >
         <center>
-        <img src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
+        <img style="width:50% !importment; " src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
         </center>
     </div>
 
