@@ -117,7 +117,7 @@
     </div>
     <div class="tm-site-logo" >
         <center>
-        <img style="width:50% !importment; " src="<?php echo base_url() ?>assets/images/lengkap.png" class="responsive-logo" alt="Responsive image">
+        <img style="width:50% !importment; " src="<?php echo base_url() ?>assets/images/lengkap3.png" class="responsive-logo" alt="Responsive image">
         </center>
     </div>
 
