@@ -100,7 +100,7 @@
       chart
         .title('Average Waste (Kg)')
         // set chart radius
-        .radius('80%');
+        .radius('80%').labels().format("{%value}");
 
       // set container id for the chart
       chart.container('containerchart');
